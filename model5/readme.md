@@ -1,3 +1,3 @@
--autoencoder
--minimalizálva
-sigmoid aktiválás
+- autoencoder
+- minimalizálva
+- sigmoid aktiválás
