@@ -1,0 +1,2 @@
+autoencoder
+minimalizálva
