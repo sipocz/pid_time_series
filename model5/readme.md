@@ -1,2 +1,2 @@
-autoencoder
-minimalizálva
+-autoencoder
+-minimalizálva
