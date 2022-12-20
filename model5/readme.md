@@ -1,2 +1,3 @@
 -autoencoder
 -minimalizálva
+sigmoid aktiválás
