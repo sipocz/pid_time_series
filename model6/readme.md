@@ -1,3 +1,18 @@
+_N1_=13
+_N2_=6
+_N3_=2
+_N4_=2
+_lr_=0.0001
+_batch_size_=32
+_drop1_=0.0
+_drop2_=0.0
+_epochs_=3500
+_comment_="2 réteg input: 13 encoded 2"
+
+
+
+
+
 
 kernel_reg_1=tf.keras.regularizers.L2(0.1)
 
