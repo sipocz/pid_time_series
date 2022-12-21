@@ -1,12 +1,21 @@
 _N1_=13
+
 _N2_=6
+
 _N3_=2
+
 _N4_=2
+
 _lr_=0.0001
+
 _batch_size_=32
+
 _drop1_=0.0
+
 _drop2_=0.0
+
 _epochs_=3500
+
 _comment_="2 réteg input: 13 encoded 2"
 
 
@@ -20,11 +29,13 @@ input_size=20
 
 
 input1=Input(shape=(input_size,))
+
 l1_out=Dense(_N1_,activation="relu",kernel_initializer='glorot_uniform',kernel_regularizer=None)(input1) # kernel_initializer='lecun_normal'  # L1
 
 #l2_out=Dropout(_drop1_)(l1_out)
 
 #l3_out=Dense(_N2_,activation="relu",kernel_initializer='glorot_uniform',kernel_regularizer=None)(l2_out) #kernel_initializer='lecun_normal',  # L2
+
 #l4_out=Dropout(_drop2_)(l3_out)
 
 l5_out=Dense(_N3_,activation="linear",kernel_initializer='glorot_uniform',name="encoded",kernel_regularizer=None)(l1_out) #kernel_initializer='lecun_normal',  # L3
@@ -39,8 +50,7 @@ l9_out=Dense(_N1_,activation="relu",kernel_initializer='glorot_uniform',kernel_r
 pred=Dense(input_size, activation="sigmoid",)(l9_out)
 
 model = Model(inputs=input1, outputs=pred)
+
 optimizer=Adamax(learning_rate=_lr_,) #
 
-model.compile(loss='MAE',
-    optimizer=optimizer,
-    metrics=["MAE"])
+model.compile(loss='MAE',    optimizer=optimizer, metrics=["MAE"])
