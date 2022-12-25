@@ -1,9 +1,10 @@
 
 teljes 3 napnyi teszt komplett autoencoder tanítása.
 minmax scaler alkalmazásával
-Model: "model"
 
 ```python
+model.summary()
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
