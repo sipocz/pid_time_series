@@ -1,7 +1,7 @@
 
 teljes 3 napnyi teszt komplett autoencoder tanítása.
 minmax scaler alkalmazásával
-[wandb]: (https://wandb.ai/pid_status/pid_autoencoder/runs/3k5sclxx?workspace=user-sipoczlaszlo)
+[wandb](https://wandb.ai/pid_status/pid_autoencoder/runs/3k5sclxx?workspace=user-sipoczlaszlo)
 
 ```python
 model.summary()
