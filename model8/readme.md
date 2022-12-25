@@ -3,7 +3,7 @@ teljes 3 napnyi teszt komplett autoencoder tanítása.
 minmax scaler alkalmazásával
 Model: "model"
 
-`python
+```python
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
@@ -22,4 +22,4 @@ Total params: 647
 Trainable params: 647
 Non-trainable params: 0
 _________________________________________________________________
-`
+```
