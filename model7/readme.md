@@ -17,8 +17,10 @@ _drop1_=0.0
 _drop2_=0.0  
 _epochs_=5000  
 _comment_="3 réteg:  20] 13 2 13 [20 "  
+```
 
-
+Model:
+```Python
 input_size=20
 
 
