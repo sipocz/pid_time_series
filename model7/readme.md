@@ -1,16 +1,16 @@
  [wandb address](https://wandb.ai/pid_status/pid_autoencoder/runs/sl8olbno])  
  
  Parameters:  
+```Python
+_N1_=13
 
-`_N1_=13`
+_N2_=5
 
-`_N2_=5`
+_N3_=3
 
-`_N3_=3`
+_N4_=5
 
-`_N4_=5`
-
-`_N5_=13`
+_N5_=13
 _lr_=0.0001  
 _batch_size_=32  
 _drop1_=0.0  
@@ -44,4 +44,4 @@ model = Model(inputs=input1, outputs=pred)
 optimizer=Adamax(learning_rate=_lr_,) 
 
 model.compile(loss='MAE', optimizer=optimizer, metrics=["MAE"]) 
-
+```
