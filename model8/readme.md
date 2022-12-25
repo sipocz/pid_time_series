@@ -5,7 +5,8 @@ minmax scaler alkalmazásával.
 
 
 
-[wandb adatok itt:](https://wandb.ai/pid_status/pid_autoencoder/runs/3k5sclxx?workspace=user-sipoczlaszlo)
+[wandb adatok itt:](https://wandb.ai/pid_status/pid_autoencoder/runs/3k5sclxx?workspace=user-sipoczlaszlo)  
+[youtube](https://youtu.be/QqwuHo6WiiY)  
 
 ```python
 model.summary()
