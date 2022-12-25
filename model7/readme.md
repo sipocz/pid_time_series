@@ -1,6 +1,6 @@
  [wandb address](https://wandb.ai/pid_status/pid_autoencoder/runs/sl8olbno])  
  
- Parameters:
+ Parameters:  
 `
 _N1_=13  
 _N2_=5  
