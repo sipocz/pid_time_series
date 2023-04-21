@@ -1,5 +1,6 @@
 Pid_NN_LSTM.ipynb
 
+```python
 _N1_=1100 #70  #700
 _N2_=118 #12  #120
 _lr_=0.001
@@ -46,3 +47,4 @@ model.compile(loss='binary_crossentropy',
         metrics=["accuracy"])
         
         
+```
