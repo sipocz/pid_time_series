@@ -1,7 +1,7 @@
 val accuracy : 0.9982 
 
 
-'''python
+```python
 
 _N1_=1100 #70  #700
 _N2_=118 #12  #120
@@ -50,4 +50,4 @@ model.compile(loss='binary_crossentropy',
 
 
 
-'''
+```
