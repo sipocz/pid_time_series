@@ -1,1 +1,1 @@
-val accuracy : 0.9912 
+val accuracy : 0.9982 
