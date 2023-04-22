@@ -1,5 +1,5 @@
 model_PID_NN_LSTM__567_0.0219_0.0492_0.9918.hdf5 : +-0.4 a még jónak elfogadott range
-
+model_PID_NN_LSTM__522_0.0255_0.0824_0.9906.hdf5 : +-0.2 a még jónak elfogadott range
 
 
 
