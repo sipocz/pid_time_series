@@ -1,3 +1,8 @@
+model_PID_NN_LSTM__567_0.0219_0.0492_0.9918.hdf5 : +-0.4 a még jónak elfogadott range
+
+
+
+
 ```python
 
 _N1_=1100 #70  #700
